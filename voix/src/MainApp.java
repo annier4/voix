@@ -6,7 +6,7 @@ public class MainApp extends PApplet {
 	private Logica app;
 	
 	public static void main(String[] args){
-		PApplet.main("Main");
+		PApplet.main("MainApp");
 	}
 	
 	@Override
