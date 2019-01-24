@@ -3,7 +3,8 @@ import processing.core.PApplet;
 
 public class MainApp extends PApplet {
 	
-	private Logica app;
+	private Logica log;
+	static PApplet app;
 	
 	public static void main(String[] args){
 		PApplet.main("MainApp");
@@ -11,11 +12,13 @@ public class MainApp extends PApplet {
 	
 	@Override
 	public void settings(){
-		size(500,500);
+		size(1200,700);
+		fullScreen();
 	}
 	
 	@Override
 	public void setup(){
-		app = new Logica();
+		app = this;
+		log = new Logica(app);
 	}
 }
