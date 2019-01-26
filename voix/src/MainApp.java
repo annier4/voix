@@ -13,12 +13,22 @@ public class MainApp extends PApplet {
 	@Override
 	public void settings(){
 		size(1200,700);
-		fullScreen();
+		//fullScreen();
 	}
 	
 	@Override
 	public void setup(){
 		app = this;
 		log = new Logica(app);
+	}
+	
+	public void draw() {
+		background(255);
+		log.pintar(app);
+	}
+	
+	public void mousePressed() {
+		System.out.println(mouseX + " " + mouseY);
+		log.mousePressed(app);
 	}
 }
