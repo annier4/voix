@@ -122,7 +122,7 @@ public class Logica {
 				if (app.mouseX >= 130 && app.mouseX <= 280 && app.mouseY >= 516 && app.mouseY <= 668) {
 					pantalla = 7;
 				}
-				// Presiona Triglicéridos
+				// Presiona Triglicï¿½ridos
 				if (app.mouseX >= 297 && app.mouseX <= 445 && app.mouseY >= 516 && app.mouseY <= 668) {
 					pantalla = 7;
 				}

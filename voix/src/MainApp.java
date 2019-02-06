@@ -1,5 +1,6 @@
 
 import processing.core.PApplet;
+import processing.video.*;
 
 public class MainApp extends PApplet {
 	
@@ -32,3 +33,5 @@ public class MainApp extends PApplet {
 		log.mousePressed(app);
 	}
 }
+
+
